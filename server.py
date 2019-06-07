@@ -1,21 +1,5 @@
 from flask import Flask,render_template,request
 import pymysql
-
-#  1. flask
-#  2. pymysql
-#
-#  3. 安装mysql
-
-#  4.  创一个库w1903
-#  5. 创建一个表 classes
-
-#  6.  字段  id  name  age  classes
-
-
-#  1. 打开摄像头   采集到数据  python  服务器的能力  python 数据库
-
-#  python numpy
-
 app=Flask(__name__)
 
 db = pymysql.connect(host='localhost',
