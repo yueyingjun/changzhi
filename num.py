@@ -1,7 +1,5 @@
 import numpy as np
-
 import cv2
-
 def distance (a,b):
     return np.sqrt(np.sum(np.square(a-b)))
 
